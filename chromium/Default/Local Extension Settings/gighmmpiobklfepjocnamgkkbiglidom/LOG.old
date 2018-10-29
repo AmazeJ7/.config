@@ -1,0 +1,20 @@
+2018/10/28-23:23:34.521 3758 Reusing MANIFEST /home/johnny/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/MANIFEST-000001
+2018/10/28-23:23:34.522 3758 Recovering log #608
+2018/10/28-23:23:34.522 3758 Reusing old log /home/johnny/.config/chromium/Default/Local Extension Settings/gighmmpiobklfepjocnamgkkbiglidom/000608.log 
+2018/10/28-23:24:35.709 4823 Level-0 table #612: started
+2018/10/28-23:24:35.838 4823 Level-0 table #612: 3738956 bytes OK
+2018/10/28-23:24:35.846 4823 Delete type=0 #608
+2018/10/28-23:24:35.848 4823 Compacting 4@0 + 2@1 files
+2018/10/28-23:24:35.971 4823 Generated table #613@0: 1 keys, 3738878 bytes
+2018/10/28-23:24:35.979 4823 Generated table #614@0: 5 keys, 419 bytes
+2018/10/28-23:24:35.979 4823 Compacted 4@0 + 2@1 files => 3739297 bytes
+2018/10/28-23:24:35.993 4823 compacted to: files[ 0 2 1 0 0 0 0 ]
+2018/10/28-23:24:35.994 4823 Delete type=2 #604
+2018/10/28-23:24:35.994 4823 Delete type=2 #609
+2018/10/28-23:24:35.995 4823 Delete type=2 #601
+2018/10/28-23:24:35.996 4823 Delete type=2 #612
+2018/10/28-23:24:35.996 4823 Delete type=2 #607
+2018/10/28-23:24:35.997 4823 Delete type=2 #602
+2018/10/28-23:25:00.533 4823 Level-0 table #616: started
+2018/10/28-23:25:00.634 4823 Level-0 table #616: 3739118 bytes OK
+2018/10/28-23:25:00.642 4823 Delete type=0 #611
