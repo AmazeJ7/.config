@@ -1,6 +1,18 @@
-2018/10/28-19:45:03.487 927 Reusing MANIFEST /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/10/28-19:45:03.487 927 Recovering log #7
-2018/10/28-19:45:03.520 927 Reusing old log /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000007.log 
-2018/10/28-20:01:15.062 2202 Level-0 table #11: started
-2018/10/28-20:01:15.108 2202 Level-0 table #11: 1729409 bytes OK
-2018/10/28-20:01:15.118 2202 Delete type=0 #7
+2019/04/02-00:43:54.548 82b Reusing MANIFEST /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/04/02-00:43:54.548 82b Recovering log #47
+2019/04/02-00:43:54.585 82b Reusing old log /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000047.log 
+2019/04/02-00:49:14.728 1340 Level-0 table #51: started
+2019/04/02-00:49:14.782 1340 Level-0 table #51: 2248905 bytes OK
+2019/04/02-00:49:14.806 1340 Delete type=0 #47
+2019/04/02-02:13:21.857 1340 Level-0 table #53: started
+2019/04/02-02:13:21.913 1340 Level-0 table #53: 2170282 bytes OK
+2019/04/02-02:13:21.934 1340 Delete type=0 #50
+2019/04/02-02:13:21.936 1340 Compacting 4@0 + 1@1 files
+2019/04/02-02:13:21.994 1340 Generated table #54@0: 15 keys, 18440 bytes
+2019/04/02-02:13:21.994 1340 Compacted 4@0 + 1@1 files => 18440 bytes
+2019/04/02-02:13:22.007 1340 compacted to: files[ 0 1 1 0 0 0 0 ]
+2019/04/02-02:13:22.007 1340 Delete type=2 #53
+2019/04/02-02:13:22.007 1340 Delete type=2 #46
+2019/04/02-02:13:22.008 1340 Delete type=2 #44
+2019/04/02-02:13:22.008 1340 Delete type=2 #51
+2019/04/02-02:13:22.008 1340 Delete type=2 #48

@@ -1,3 +1,3 @@
-2018/10/08-23:27:23.781 2945 Reusing MANIFEST /home/johnny/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/10/08-23:27:23.781 2945 Recovering log #3
-2018/10/08-23:27:23.781 2945 Reusing old log /home/johnny/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 
+2019/04/07-23:28:28.440 50c1 Reusing MANIFEST /home/johnny/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/04/07-23:28:28.440 50c1 Recovering log #3
+2019/04/07-23:28:28.441 50c1 Reusing old log /home/johnny/.config/chromium/Default/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000003.log 

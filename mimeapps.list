@@ -1,3 +1,7 @@
 [Added Associations]
 text/plain=atom.desktop;
 application/zip=xarchiver.desktop;
+text/html=atom.desktop;chromium.desktop;
+
+[Default Applications]
+x-scheme-handler/discord-431872723946438658=discord-431872723946438658.desktop

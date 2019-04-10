@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod4
+set $mod mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -27,15 +27,16 @@ font pango:DejaVu Sans Mono Nerd Font 11
 # font, it doesn’t scale on retina/hidpi displays.
 
 # Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
+#floating_modifier $mod
 
 # start a terminal
 bindsym $mod+Return exec terminator
+bindsym $mod+Shift+t exec terminator
 
 # Custom
 bindsym $mod+c exec chromium
 bindsym $mod+x exec spotify
-bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%
+bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume 0 +5%; exec twmnc -t 'Volume Up'
 bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume 0 -5%
 bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute 0 toggle
 bindsym XF86MonBrightnessUp exec light -A 5
@@ -53,6 +54,8 @@ bindsym $mod+Shift+a exec atom
 exec libinput-gestures-setup start
 exec xrdb .xresources
 exec feh --bg-scale Pictures/arch.jpg
+exec xfce4-power-manager
+exec onboard
 
 # class                 border  backgr. text    indicator child_border
 client.focused                  #555555 #000000 #ffffff #2e9ef4   #000000
@@ -198,6 +201,7 @@ bindsym $mod+r mode "resize"
 bar {
   status_command py3status
   position top
+  font xft:DejaVuSansMono Nerd Font Mono Book 11
   colors {
     background #000000
     statusline #ffffff

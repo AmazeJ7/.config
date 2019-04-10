@@ -1,3 +1,3 @@
-2018/10/09-00:46:48.105 25681 Reusing MANIFEST /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
-2018/10/09-00:46:48.105 25681 Recovering log #7
-2018/10/09-00:46:48.149 25681 Reusing old log /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000007.log 
+2019/04/01-23:34:41.070 a3f Reusing MANIFEST /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/MANIFEST-000001
+2019/04/01-23:34:41.071 a3f Recovering log #47
+2019/04/01-23:34:41.438 a3f Reusing old log /home/johnny/.config/chromium/Default/IndexedDB/https_www.netflix.com_0.indexeddb.leveldb/000047.log 
