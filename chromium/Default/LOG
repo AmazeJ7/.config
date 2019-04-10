@@ -1,8 +1,0 @@
-2019/04/01-23:18:56.138 3d72 Recovering log #366
-2019/04/01-23:18:56.138 3d72 Level-0 table #368: started
-2019/04/01-23:18:56.150 3d72 Level-0 table #368: 897 bytes OK
-2019/04/01-23:18:56.183 3d72 Delete type=0 #366
-2019/04/01-23:18:56.183 3d72 Delete type=3 #364
-2019/04/01-23:18:56.184 3da0 Compacting 4@0 + 0@1 files
-2019/04/01-23:18:56.186 3da0 Compacted 4@0 + 0@1 files => 0 bytes
-2019/04/01-23:18:56.199 3da0 compacted to: files[ 0 1 0 0 0 0 0 ]
