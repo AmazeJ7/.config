@@ -1,0 +1,105 @@
+# i3status configuration file.
+# see "man i3status" for documentation.
+
+# It is important that this file is edited as UTF-8.
+# The following line should contain a sharp s:
+# ß
+# If the above line is not correctly displayed, fix your editor first!
+
+general {
+  colors = true
+  interval = 1
+}
+
+py3status {
+    nagbar_font = 'xft:DejaVuSansMono Nerd Font Mono Book 11'
+}
+
+#order += "spotify"
+order += "arch_updates"
+order += "wireless _first_"
+order += "ethernet _first_"
+order += "net_rate"
+order += "diskdata"
+order += "sysdata"
+order += "backlight"
+order += "volume master"
+order += "battery all"
+order += "tztime local"
+
+arch_updates {
+  hide_if_zero = 1
+  format= "Yay: {total}"
+}
+
+net_rate {
+  cache_timeout = 0.5
+  format = "{down}  {up} "
+  unit = "MB/s"
+  hide_if_zero = 1
+}
+
+backlight {
+  format = "B: {level}%"
+  on_click 3 = "exec light -A 5"
+  on_click 1 = "exec light -U 5"
+}
+
+diskdata {
+  unit = "MB/s"
+  cache_timeout = .5
+  format = "{read}{write} {free} GB"
+
+}
+
+sysdata {
+  cache_timeout = 1
+  format = "[\?color=temp CPU: {cpu_usage}% {cpu_temp}{temp_unit}]  [\?color=mem RAM: {mem_used}/{mem_total} GB]"
+}
+
+spotify {
+  format = "{title} by {artist}"
+  format_down = ""
+}
+
+cpu_temperature 0 {
+  format = "%degrees C"
+  path = "/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input"
+}
+
+wireless _first_ {
+  format_up = "%essid %quality %ip"
+  format_down = ""
+}
+
+ethernet _first_ {
+  # if you use %speed, i3status requires root privileges
+  format_up = "E: %ip %speed"
+  format_down = ""
+}
+
+battery all {
+  format = "%status %percentage %remaining"
+}
+
+tztime local {
+  format = "%m/%d/%Y %H:%M:%S"
+}
+
+load {
+  format = "%1min"
+}
+
+disk "/" {
+  format = "%avail"
+}
+
+volume master {
+  format = "V: %volume"
+  format_muted = "V: 0"
+  device = "default"
+  mixer = "Master"
+  mixer_idx = 0
+  on_click 3 = "exec --no-startup-id pactl set-sink-volume 0 +5%"
+  on_click 1 = "exec --no-startup-id pactl set-sink-volume 0 -5%"
+}
