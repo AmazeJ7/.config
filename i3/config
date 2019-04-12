@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod mod4
+set $mod mod1
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -201,7 +201,7 @@ bindsym $mod+r mode "resize"
 bar {
   status_command py3status
   position top
-  font xft:DejaVuSansMono Nerd Font Mono Book 11
+  font xft:DejaVuSansMono Nerd Font Mono Book 12
   colors {
     background #000000
     statusline #ffffff
