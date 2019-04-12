@@ -30,7 +30,9 @@ order += "tztime local"
 arch_updates {
   hide_if_zero = 1
   format= "Yay: {total}"
+  on_click 1 = "exec terminator -e yay"
 }
+
 
 net_rate {
   cache_timeout = 0.5
