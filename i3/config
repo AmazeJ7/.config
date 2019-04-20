@@ -51,11 +51,9 @@ bindsym $mod+Shift+m exec systemctl suspend
 bindsym $mod+o exec openvpn /etc/openvpn/27.opvn
 bindsym $mod+y exec kodi
 bindsym $mod+Shift+a exec atom
-exec libinput-gestures-setup start
 exec xrdb .xresources
 exec feh --bg-scale Pictures/arch.jpg
-exec xfce4-power-manager
-exec onboard
+exec xrandr --output DVI-D-1 --off --output HDMI-1 --mode 1920x1080 --pos 0x360 --rotate normal --output DP-2 --off --output DP-1 --primary --mode 2560x1440 --pos 1920x0 --rotate normal --output HDMI-2 --off
 
 # class                 border  backgr. text    indicator child_border
 client.focused                  #555555 #000000 #ffffff #2e9ef4   #000000
