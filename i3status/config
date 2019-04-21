@@ -21,7 +21,7 @@ order += "wireless _first_"
 order += "ethernet _first_"
 order += "net_rate"
 order += "diskdata"
-order += "sysdata"
+order += "sysdatajohnny"
 #order += "backlight"
 order += "volume master"
 #order += "battery all"
@@ -37,7 +37,6 @@ net_rate {
   cache_timeout = 0.5
   format = "{down}  {up} "
   unit = "MB/s"
-  hide_if_zero = 1
 }
 
 backlight {
@@ -53,19 +52,14 @@ diskdata {
 
 }
 
-sysdata {
+sysdatajohnny {
   cache_timeout = 1
-  format = "[\?color=temp CPU: {cpu_usage}% {cpu_temp}{temp_unit}]  [\?color=mem RAM: {mem_used}/{mem_total} GB]"
+  format = "[\?color=gpu_temp GPU: {gpu_temp}{temp_unit}]  [\?color=temp CPU: {cpu_usage}% {cpu_temp}{temp_unit}]  [\?color=mem RAM: {mem_used}/{mem_total} GB]"
 }
 
 spotify {
   format = "{title} by {artist}"
   format_down = ""
-}
-
-cpu_temperature 0 {
-  format = "%degrees C"
-  path = "/sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input"
 }
 
 wireless _first_ {

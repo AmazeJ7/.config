@@ -52,8 +52,8 @@ bindsym $mod+o exec openvpn /etc/openvpn/27.opvn
 bindsym $mod+y exec kodi
 bindsym $mod+Shift+a exec atom
 exec xrdb .xresources
-exec feh --bg-scale Pictures/arch.jpg
-exec xrandr --output DVI-D-1 --off --output HDMI-1 --mode 1920x1080 --pos 0x360 --rotate normal --output DP-2 --off --output DP-1 --primary --mode 2560x1440 --pos 1920x0 --rotate normal --output HDMI-2 --off
+exec feh --bg-scale Pictures/space.jpg
+exec /home/johnny/.screenlayout/1.sh
 
 # class                 border  backgr. text    indicator child_border
 client.focused                  #555555 #000000 #ffffff #2e9ef4   #000000
@@ -198,7 +198,7 @@ bindsym $mod+r mode "resize"
 # finds out, if available)
 bar {
   status_command py3status
-  position top
+  position bottom
   font xft:DejaVuSansMono Nerd Font Mono Book 12
   colors {
     background #000000
